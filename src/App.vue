@@ -17,7 +17,7 @@
   </div>
 
   <div class="q-pa-md q-gutter-sm">
-    <q-editor v-model="editor" min-height="5rem" />
+    <q-editor v-model="data" min-height="5rem" />
 
     <q-card flat bordered>
       <q-card-section>
@@ -35,11 +35,14 @@
 <script setup lang="ts">
 import { useMouse, useCounter } from '@vueuse/core'
 import { ref } from 'vue'
+import { useAxios } from '@vueuse/integrations/useAxios'
 
 const { x, y } = useMouse()
 const { count, inc, dec } = useCounter()
 
 let editor = ref('What you see is <b>what</b> you get.');
+const { data, isFinished } = useAxios('https://httpbin.org/base64/SFRUUEJJTiBpcyBhd2Vzb21l')
+
 
 </script>
 

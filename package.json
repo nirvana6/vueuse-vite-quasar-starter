@@ -5,7 +5,9 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.16.11",
-    "@vueuse/core": "^8.2.0",
+    "@vueuse/core": "^8.9.4",
+    "@vueuse/integrations": "^10.11.0",
+    "axios": "^1.7.2",
     "quasar": "^2.16.5",
     "vue": "^3.2.31"
   },
