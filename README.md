@@ -5,7 +5,7 @@
 </p>
 
 
-Starter for [Vite](https://github.com/vuejs/vite) + [VueUse](https://github.com/vueuse/vueuse) + [TypeScript](https://www.typescriptlang.org/)
+Starter for [Vite](https://github.com/vuejs/vite) + [VueUse](https://github.com/vueuse/vueuse) + [TypeScript](https://www.typescriptlang.org/), with [Quasar](https://quasar.dev/) UI framework.
 
 🌐 [Live Demo](https://vueuse-vite-starter.netlify.app/)
 
